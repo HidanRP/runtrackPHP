@@ -1,4 +1,9 @@
-<?php $base=1337 ;
-
-for ($base = 0; $base < 1337; $base++);
-echo "Le nombre est : $base" ?>
+<?php
+for ($i = 0; $i <= 1337; $i ++) {
+    if ($i == 42) {
+        echo "<strong><u>$i</u></strong><br>";
+    } else {
+        echo "$i<br>";
+    }
+}
+?>
